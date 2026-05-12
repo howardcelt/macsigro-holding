@@ -1,6 +1,6 @@
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { Briefcase, MapPin, Clock, Users, Rocket, ShieldCheck, Heart, ArrowRight, X, Upload, FileText, CheckCircle2, Loader2 } from 'lucide-react';
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const jobs = [
   {

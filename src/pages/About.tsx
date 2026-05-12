@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { Target, Eye, ShieldCheck, Zap, History, MoveRight } from 'lucide-react';
 
 const values = [

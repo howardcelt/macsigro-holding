@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { 
   Factory, Building2, Home as HomeIcon, Hotel, Package, Truck, Layers, 
   CheckCircle, ArrowRight, Quote, Calendar, MapPin, Briefcase, FileText

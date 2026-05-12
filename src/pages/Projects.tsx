@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { Search, Filter, ArrowRight, MapPin, Calendar, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const categories = ['All', 'Construction', 'Manufacturing', 'Infrastructure', 'Real Estate', 'Hospitality'];
 

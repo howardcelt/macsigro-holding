@@ -1,14 +1,14 @@
 import { RouterProvider, createBrowserRouter, Outlet } from 'react-router-dom';
-import Navbar from './components/layout/Navbar.tsx';
-import Footer from './components/layout/Footer.tsx';
-import Home from './pages/Home.tsx';
-import About from './pages/About.tsx';
-import Divisions from './pages/Divisions.tsx';
-import SectorDetail from './pages/SectorDetail.tsx';
-import Projects from './pages/Projects.tsx';
-import Contact from './pages/Contact.tsx';
-import Careers from './pages/Careers.tsx';
-import AIAssistant from './components/AIAssistant.tsx';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Divisions from './pages/Divisions';
+import SectorDetail from './pages/SectorDetail';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Careers from './pages/Careers';
+import AIAssistant from './components/AIAssistant';
 
 // Placeholder for minor pages
 const Placeholder = ({ title }: { title: string }) => (
