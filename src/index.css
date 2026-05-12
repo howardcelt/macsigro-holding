@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #0B1F3A;
+  --color-brand-gold: #C89B3C;
+  --color-brand-gray: #5F6B7A;
+  --color-brand-light: #F4F6F8;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", "Poppins", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-[#1A1A1A] font-sans selection:bg-brand-gold/30;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight;
+  }
+}
+
+/* Custom Utilities */
+.glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-navy to-brand-gray;
+}
+
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-1;
+}
