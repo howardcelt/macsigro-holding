@@ -7,6 +7,7 @@ import Divisions from './pages/Divisions.tsx';
 import SectorDetail from './pages/SectorDetail.tsx';
 import Projects from './pages/Projects.tsx';
 import Contact from './pages/Contact.tsx';
+import Careers from './pages/Careers.tsx';
 import AIAssistant from './components/AIAssistant.tsx';
 
 // Placeholder for minor pages
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
       { path: '/divisions/:sectorId', element: <SectorDetail /> },
       { path: '/projects', element: <Projects /> },
       { path: '/contact', element: <Contact /> },
-      { path: '/careers', element: <Placeholder title="Careers at Macsigro" /> },
+      { path: '/careers', element: <Careers /> },
       { path: '/blog', element: <Placeholder title="News & Insights" /> },
       { path: '/investors', element: <Placeholder title="Investor Relations" /> },
       { path: '/privacy', element: <Placeholder title="Privacy Policy" /> },
