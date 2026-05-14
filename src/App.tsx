@@ -8,6 +8,7 @@ import SectorDetail from './pages/SectorDetail';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Careers from './pages/Careers';
+import EmployeePortal from './pages/EmployeePortal';
 import AIAssistant from './components/AIAssistant';
 
 // Placeholder for minor pages
@@ -43,6 +44,7 @@ const router = createBrowserRouter([
       { path: '/projects', element: <Projects /> },
       { path: '/contact', element: <Contact /> },
       { path: '/careers', element: <Careers /> },
+      { path: '/portal', element: <EmployeePortal /> },
       { path: '/blog', element: <Placeholder title="News & Insights" /> },
       { path: '/investors', element: <Placeholder title="Investor Relations" /> },
       { path: '/privacy', element: <Placeholder title="Privacy Policy" /> },

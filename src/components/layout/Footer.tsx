@@ -23,6 +23,7 @@ export default function Footer() {
         { name: 'Investor Relations', href: '/investors' },
         { name: 'Careers', href: '/careers' },
         { name: 'News & Insights', href: '/blog' },
+        { name: 'Employee Portal', href: '/portal' },
       ]
     },
     {
